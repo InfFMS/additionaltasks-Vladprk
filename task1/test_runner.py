@@ -1,3 +1,4 @@
+import time
 import subprocess
 import os
 from termcolor import colored
@@ -74,3 +75,4 @@ def run_all_tests():
 
 if __name__ == "__main__":
     run_all_tests()
+time.sleep(10)
